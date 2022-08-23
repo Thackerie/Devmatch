@@ -83,3 +83,5 @@ group :production do
   # Use the PostgreSQL gem for Heroku production servers
   gem 'pg'
 end
+  #Use twitter bootstrap to make the site look good
+  gem 'bootstrap-sass'
