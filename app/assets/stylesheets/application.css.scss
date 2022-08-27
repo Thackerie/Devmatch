@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- 
+ //Typography Style
  h1, h2, h3 {
      font-family: 'Open Sans', sans-serif;
  }
@@ -22,25 +22,28 @@
  /* bootstrap like in the tutorial*/
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
+ //Background Gradient
   .navbar, .home-callout {
   //Gradient provided by @_ighosh at uiGradients.com
   background: #cc2b5e;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
+ //Nav Styles
  .navbar, .home-callout {
    border: none;
  }
+ .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
+  color:white;
+  &:hover {
+   color: white;
+  opacity: 0.75;
+  }
+}
+//Home-callout Style
  .home-callout {
   color: white;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
-}
- .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
- color:white;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
 }
