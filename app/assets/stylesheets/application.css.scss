@@ -45,6 +45,15 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
 }
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #cc1b5e;
+  }
+}
 //Home-callout Style
  .home-callout {
   color: white;
