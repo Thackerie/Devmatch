@@ -107,6 +107,7 @@ GEM
       sassc (~> 2.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    hirb (0.7.3)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.5)
@@ -245,6 +246,7 @@ DEPENDENCIES
   coffee-rails
   debug
   font-awesome-sass (~> 6.1.2)
+  hirb (= 0.7.3)
   importmap-rails
   jbuilder
   jquery-rails
