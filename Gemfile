@@ -39,6 +39,9 @@ gem "font-awesome-sass", "~> 6.1.2"
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
 
+# Use Devise for user authentication
+gem 'devise'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
